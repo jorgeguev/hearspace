@@ -1,0 +1,169 @@
+*{
+	margin:0px;
+	padding: 0px;
+}
+
+nav{
+	background-color: white;
+}
+
+nav ul{
+	text-align: center;
+}
+
+nav ul li{
+	display: inline-block;
+	padding: 30px 30px;
+	color: black;
+	font-family: Arial;
+}
+
+li:hover{
+	background-color: black;
+	color: white;
+}
+
+nav input[type=text]{
+	float:none;
+	padding: 10px;
+	border: 2px solid #ccc;
+	border-radius: 8px;
+	margin-top: 8px;
+	margin-right: 16px;
+	font-size: 17px;
+	font-family: Arial;
+}
+
+.img{
+	position: relative;
+	padding: 10px 170px;
+	
+}
+
+.headline{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	padding: 40px;
+}
+
+.headline-body{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 30px;
+}
+
+.headline2{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	padding: 40px;
+}
+
+.hottakes{
+	width: 500px;
+  	margin: 50px auto;
+  	border: 1px solid black;
+	opacity: 0px;
+  	padding: 30px;
+  	text-align: center;
+  	font-weight: 500;
+  	color: black;
+  	font-family: 'Roboto Condensed', sans-serif;
+  	position: relative;
+}
+
+.fantano{
+	padding: -60px;
+	color: gray;
+}
+
+.checked{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 15px;
+	color: black;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	
+}
+
+.headline3{
+	font-family: 'Roboto Condensed', sans-serif;
+	font-size: 40px;
+	padding: 80px;
+}
+
+ul {list-style-type: none;}
+body {font-family: 'Roboto Condensed', sans-serif}
+
+
+.month {
+  padding: 70px 20px;
+  width: 97.9%;
+  background: gray;
+  text-align: center;
+}
+
+.month ul {
+  margin: 0;
+  padding: 0;
+}
+
+.month ul li {
+  color: white;
+  font-size: 20px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.month .prev {
+  float: left;
+  padding-top: 10px;
+}
+
+.month .next {
+  float: right;
+  padding-top: 10px;
+}
+
+.weekdays {
+  margin: 0;
+  padding: 10px 0;
+  background-color:#ddd;
+}
+
+.weekdays li {
+  display: inline-block;
+  width: 13.6%;
+  color: #666;
+  text-align: center;
+}
+
+
+.days {
+  padding: 10px 0;
+  background: #eee;
+  margin: 0;
+} 
+
+.days li {
+  list-style-type: none;
+  display: inline-block;
+  width: 13.6%;
+  text-align: center;
+  margin-bottom: 5px;
+  font-size:12px;
+  color: #777;
+}
+
+
+.days li .active {
+  padding: 5px;
+  background: gray;
+  color: white !important
+}
+
+
+.concerts{
+	font-family: 'Roboto Condensed', sans-serif;
+	padding: 30px;
+	font-size: 20px;
+}
